@@ -8,7 +8,7 @@
  *   2. Run `node backendExample.js` in your terminal.
  */
 
-const { encrypt, decrypt } = require('./CryptoUtil');
+const { encrypt, decrypt } = require("../components/CryptoUtil");
 
 const plaintext = "HelloWorld";
 const secretKey = "mySecretKey";

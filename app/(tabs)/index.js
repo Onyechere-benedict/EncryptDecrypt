@@ -15,7 +15,7 @@
 import React, { useState } from "react";
 import { SafeAreaView, View, Text, TextInput, Button, StyleSheet, ScrollView } from "react-native";
 // Import the encryption functions from CryptoUtil.js
-import { encrypt, decrypt } from "../components/CryptoUtil";
+import { encrypt, decrypt } from "../../components/CryptoUtil";
 
 const App = () => {
 	const [plaintext, setPlaintext] = useState("");
